@@ -1,0 +1,12 @@
+echo "# prueva-vue-web" >> README.md
+git init
+git add .
+git commit -m "prueva comit"
+git branch -M main
+git remote add origin https://github.com/david-baca/prueva-vue-web.git
+git push -u origin main
+
+
+git remote add . origin https://github.com/david-baca/prueva-vue-web.git
+git branch -M main
+git push -u origin main
