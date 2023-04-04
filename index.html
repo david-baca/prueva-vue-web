@@ -9,7 +9,12 @@
 <body>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
-    <div id="app">{{ message }}</div>
+    <div id="app">{{ message }}
+
+
+        <input  @click="cambio()" v-model="message"/>
+
+    </div>
 
     <script src="./js/vue.js"></script>
 </body>
